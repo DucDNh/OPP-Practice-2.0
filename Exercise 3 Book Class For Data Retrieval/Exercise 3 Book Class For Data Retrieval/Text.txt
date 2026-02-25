@@ -1,0 +1,4 @@
+Practice Problem: Design a Book class with private members std::string title, 
+std::string author, and std::string isbn. Include a constructor to initialize them. 
+Implement a public method get_details() that returns a single 
+formatted std::string containing all the book’s information.
