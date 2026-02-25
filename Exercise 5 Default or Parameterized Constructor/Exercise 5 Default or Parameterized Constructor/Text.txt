@@ -1,0 +1,3 @@
+Practice Problem: Implement the Rectangle class (from Exercise 1). This time, include two public constructors: 
+a default constructor that sets both length and width to 1, and a parameterized constructor that allows setting 
+custom values for length and width.
