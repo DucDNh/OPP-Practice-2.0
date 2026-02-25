@@ -1,0 +1,3 @@
+Practice Problem: Create a Date class with private members int day, int month, and int year. 
+Implement a constructor that performs basic validation: if the month is not between 1 and 12, 
+it should set the month to a default value (e.g., 1) and print an error message.

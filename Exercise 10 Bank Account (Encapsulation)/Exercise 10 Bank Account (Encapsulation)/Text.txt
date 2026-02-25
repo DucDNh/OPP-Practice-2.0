@@ -1,0 +1,4 @@
+Practice Problem: Create a BankAccount class with private members double balance and std::string account_number. 
+Provide public methods deposit(double amount) and withdraw(double amount). The deposit method should add the amount. 
+The withdraw method must include validation: it should only proceed if the amount is positive and less than or equal to the current balance. 
+Both methods should return a boolean indicating success or failure.
