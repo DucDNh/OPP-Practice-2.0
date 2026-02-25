@@ -1,0 +1,3 @@
+Practice Problem: Implement a Circle class with a private member double radius. Add a constructor to 
+initialize the radius. Include a public constant member function get_area() that
+calculates and returns the area of the circle (pir, use pi = 3.14159)
