@@ -1,0 +1,4 @@
+Practice Problem: Implement a class Temperature with a private member double celsius.
+Provide a public setter method set_celsius(double c) to assign a value to the private member. 
+Also, provide a public getter method get_fahrenheit() that calculates and returns the temperature in Fahrenheit using the formula: 
+F = C (9/5) + 32.

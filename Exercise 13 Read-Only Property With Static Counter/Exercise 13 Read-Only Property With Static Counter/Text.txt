@@ -1,0 +1,3 @@
+Practice Problem: Create a class SerialGenerator with a private static member next_serial_number initialized to 1000. 
+Implement a public method get_serial() that returns the current value of next_serial_number and then increments it. 
+The counter itself should only be readable via this method.
