@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
@@ -26,11 +27,10 @@ public :
 };
 
 int main() {
-	Shape* shape[2];
-	Square square1(6);
-	Triangle triangle1(3, 4);
-	shape[0] = &square1;
-	shape[1] = &triangle1;
-	cout << "Square area = " << shape[0] -> area() << ", Triangle area = " << shape[1] -> area() << endl;
+	vector<unique_ptr<Shape>> shape1;
+	shape1.push_back(make_unique<Square>(6.0));
+	shape1.push_back(make_unique<Triangle>(3.0, 4.0));
+	for (const auto& shape_ptr : shape1)
+		cout << "Area = " << shape_ptr->area() << endl;
 	return 0;
 }
