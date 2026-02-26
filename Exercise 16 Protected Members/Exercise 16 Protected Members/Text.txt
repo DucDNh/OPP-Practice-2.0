@@ -1,0 +1,3 @@
+Practice Problem: Create a base class Person with a protected member int age. 
+Derive two classes, Student and Teacher, from Person.
+Demonstrate that both derived classes can directly access and modify the protected age member, but an external function (like main) cannot.

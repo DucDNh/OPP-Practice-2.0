@@ -1,0 +1,4 @@
+Practice Problem: Implement multilevel inheritance using three classes: Vehicle –> Car –> SportsCar.
+- Vehicle should have a method start_transport().
+- Car should inherit from Vehicle and add a private attribute int number_of_doors and a method open_door().
+- SportsCar should inherit from Car and add a private attribute int max_speed and a method activate_turbo().
