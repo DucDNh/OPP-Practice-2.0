@@ -1,0 +1,3 @@
+Practice Problem: Overload the binary addition operator (+) for the Point class (with private members x and y coordinates). 
+The overloaded operator should take two Point objects as operands and return a new Point object that represents the 
+component-wise sum: (x1, y1) + (x2, y2) = (x1+x2, y1+y2).

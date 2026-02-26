@@ -1,0 +1,4 @@
+Practice Problem: Create a base class Base and a derived class Derived. 
+The Derived class should manage a simple dynamically allocated resource (e.g., new int). 
+If the Base class does not have a virtual destructor, then the memory leak will occurs when deleting a derived object
+via a base class pointer. so, add a virtual destructor to Base and show that the leak is fixed.

@@ -1,0 +1,3 @@
+Practice Problem: Create a simple ArrayWrapper class that holds a private array of 5 integers. 
+Overload the subscript operator ([]) to allow access to the array elements using standard bracket notation. 
+Implement basic boundary checking: if the index is out of bounds (0 to 4), throw an appropriate exception or print an error and exit.
