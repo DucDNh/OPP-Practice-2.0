@@ -1,0 +1,3 @@
+Practice Problem: Create a base class Animal with a public method eat() that prints “Animal is eating.” 
+Derive a class Dog from Animal. The Dog class must override the eat() method to print “Dog is eating kibble.” 
+Additionally, add a new public method bark() to the Dog class that prints “Woof! Woof!”.
