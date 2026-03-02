@@ -1,0 +1,4 @@
+Practice Problem: Demonstrate Aggregation by creating two classes: Employee and Department. 
+The Department class should manage a group of Employee objects using a std::vector of pointers (Employee*). 
+Implement methods to add an employee to the department.
+Ensure that the Employee objects can be created and destroyed independently of the Department object.

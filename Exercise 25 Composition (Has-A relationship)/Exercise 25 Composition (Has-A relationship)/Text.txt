@@ -1,0 +1,5 @@
+Practice Problem: Demonstrate Composition by creating a class Engine and a class Car. 
+The Car class should contain an object of the Engine class (composition). 
+The Engine class should have a method start() that prints “Engine started.” 
+The Car class should have a method drive() that calls the Engine::start() method internally. 
+The Engine should be initialized when the Car is constructed.
