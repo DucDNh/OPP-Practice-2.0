@@ -1,0 +1,3 @@
+Practice Problem: Model a Library class that uses aggregation to manage a collection of Book objects (pointers). 
+Implement a method add_book(Book* book) to accept externally created books and a method list_books(). 
+Assume the Book class exists (from exercise 3).
