@@ -1,0 +1,3 @@
+Practice Problem: Implement a Team class that holds multiple Player objects (using composition). 
+The Player class should be simple (name, number). Use a std::vector<Player> inside the Team class. 
+Implement a Team constructor that initializes a list of players.
