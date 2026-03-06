@@ -1,0 +1,3 @@
+Practice Problem: Create two classes, Data (with a private member int value) and Accessor. 
+Make class Accessor a friend class of Data. 
+Implement a method display_value(const Data& d) inside Accessor that accesses and prints the private value of a Data object.

@@ -1,0 +1,3 @@
+Practice Problem: Create a class Box with private members length and width.
+Implement a non-member function named calculate_volume(const Box& b, int height) that calculates the volume (l * w * h). 
+To allow this external function to access the private length and width, declare it as a friend function inside the Box class.
