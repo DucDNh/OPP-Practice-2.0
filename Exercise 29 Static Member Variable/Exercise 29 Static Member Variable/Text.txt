@@ -1,0 +1,3 @@
+Practice Problem: In the BankAccount class (from Exercise. 10), add a private static member int total_accounts initialized to 0.
+Increment this counter in the constructor and decrement it in the destructor. 
+Print the value in the constructor and destructor to demonstrate tracking.
